@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono|Viga|Poppins|Rubik|Rubik+Mono+One&display=swap');
+
+//function
+
+@function rem($value) {
+    @return unquote(($value/1px)/16+"rem");
+}
+
+/** ukuran layar**/
+$xs:0px;
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1366px;
+
+/* color */
+
+$pblue: #1e3769;
+$sblue: #04c5d3;
+$abu-text: #999999;
+$putih: #fff;
+$pabu-text: #505050;
+$bg: #f0f0f0;
+
+/*font*/
+
+$poppin: "Poppins",
+sans-serif;
+$rubik: "Rubik",
+sans-serif;
+$rubik-mono: "Rubik Mono One",
+sans-serif;
+$viga: "Viga",
+sans-serif;
+$roboto-mono: 'Roboto Mono',
+monospace;
+$roboto: 'Roboto',
+sans-serif;
+
+//dll
+$waktutransisi: 0.5s;
+$fungsitransisi: ease-in-out;
